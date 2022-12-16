@@ -160,14 +160,14 @@ p{
     width: 100%;
     
 }
-*/
+
 
 @media (min-width: 1101px) {
   .indexNavImageWrapper  {
     position: relative;
     display: block;
     width: 100%;
-    background-image: url('Images/jordan4-2x1.jpg'); 
+    background-image: url('Images/Jordan-Desktop.jpg'); 
   }
 }
 
@@ -176,9 +176,44 @@ p{
     position: relative;
     display: block;
     width: 100%;
-    background-image: url('Images/bikepacking-jordan-1100.jpg'); 
+    background-image: url('Images/Jordan-SmartPhone.jpg'); 
   }
 }
+*/
+
+
+@media (min-aspect-ratio: 109/100) {
+  .indexNavImageWrapper  {
+    position: relative;
+    display: block;
+    width: 100%;
+    background-image: url('images/home/eric-jackson-bikepacking-jordan-desktop.jpg'); 
+  }
+}
+
+@media (min-aspect-ratio: 3/4) and (max-aspect-ratio: 109/100) {
+  .indexNavImageWrapper  {
+    position: relative;
+    display: block;
+    width: 100%;
+    background-image: url('images/home/eric-jackson-bikepacking-jordan-tablet.jpg'); 
+  }
+}
+
+@media (max-aspect-ratio: 3/4) {
+  .indexNavImageWrapper  {
+    position: relative;
+    display: block;
+    width: 100%;
+    background-image: url('images/home/eric-jackson-bikepacking-jordan-smartphone.jpg'); 
+  }
+}
+
+
+
+
+
+
 
 
 .indexNavImageSubText{
