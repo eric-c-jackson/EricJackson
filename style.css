@@ -31,7 +31,7 @@ p{
 
 .red{
     color:#ac0000;
-}
+}o
 
 .bold{
     font-weight: 700;
@@ -274,7 +274,7 @@ p{
 .contentWrapperText{
     margin: auto;
     display: flex;
-    margin: 0px 10%
+    margin: 0px 0%
 }
 
 .contentWrapperImage img{
@@ -286,7 +286,7 @@ p{
 .mainContentText p{
     margin: auto;
     
-    margin: 20px 40px 0 0;
+    padding: 5px;
     line-height: 1.4;
     text-align: justify
 }
@@ -305,7 +305,7 @@ p{
 
 
 .mainContentImage{
-    padding: 40px 0 20px 0
+    padding: 40px 0 20px 0;
 }
 
 .sideBar{
@@ -320,6 +320,31 @@ p{
 
 
 * {box-sizing: border-box;}
+
+
+
+.row1 {
+  display: flex;
+}
+
+.column1 {
+  flex: 100%;
+  padding: 5px;
+}
+
+.column2 {
+  flex: 50%;
+  padding: 5px;
+}
+
+.column3 {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+
+
+
 
 
 /* ---------------------------------------------2x2--------------------------------------------- */
@@ -1120,5 +1145,35 @@ width: 80%;
     display: block;
     width: 100%;
     background-image: url('images/jordan/eric-jackson-bikepacking-jordan-smartphone.jpg'); 
+  }
+}
+
+/* -------Bikepacking Korea------- */
+
+
+@media (min-aspect-ratio: 109/100) {
+  .koreaNavImageWrapper  {
+    position: relative;
+    display: block;
+    width: 100%;
+    background-image: url('images/korea/eric-jackson-bikepacking-korea-desktop.jpg'); 
+  }
+}
+
+@media (min-aspect-ratio: 3/4) and (max-aspect-ratio: 109/100) {
+  .koreaNavImageWrapper  {
+    position: relative;
+    display: block;
+    width: 100%;
+    background-image: url('images/korea/eric-jackson-bikepacking-korea-tablet.jpg'); 
+  }
+}
+
+@media (max-aspect-ratio: 3/4) {
+  .koreaNavImageWrapper  {
+    position: relative;
+    display: block;
+    width: 100%;
+    background-image: url('images/korea/eric-jackson-bikepacking-korea-smartphone.jpg'); 
   }
 }
